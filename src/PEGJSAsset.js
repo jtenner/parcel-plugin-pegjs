@@ -2,6 +2,10 @@ const peg = require('pegjs-dev');
 const { Asset } = require('parcel-bundler');
 
 class PEGJSAsset extends Asset {
+  constructor(...args) {
+    super(...args);
+    this.type = 'js';
+  }
   async parse(code) {
     return {
       source: peg.generate(code, {
@@ -11,12 +15,9 @@ class PEGJSAsset extends Asset {
     };
   }
   async generate() {
-    return [
-      {
-        type: 'js',
-        value: this.ast.source
-      }
-    ];
+    return {
+      js: this.ast.source
+    };
   }
 }
 
