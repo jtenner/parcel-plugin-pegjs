@@ -1,4 +1,4 @@
-const peg = require('pegjs-dev');
+const peg = require('pegjs');
 const { Asset } = require('parcel-bundler');
 
 class PEGJSAsset extends Asset {
