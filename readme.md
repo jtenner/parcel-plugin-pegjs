@@ -2,7 +2,7 @@
 
 This package adds support for pegjs in parcel.
 
-# usage
+## usage
 
 From the command line:
 
