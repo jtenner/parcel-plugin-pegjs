@@ -15,7 +15,7 @@
     "plugin",
     "pegjs"
   ],
-  "author": "Joshua <tenner.joshua@gmail.com>",
+  "author": "Joshua Tenner <tenner.joshua@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/jtenner/parcel-plugin-pegjs/issues"
