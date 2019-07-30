@@ -7,7 +7,7 @@ This package adds support for pegjs in parcel.
 From the command line:
 
 ```
-npm install --save-dev parcel-plugin-pegjs
+npm install --save-dev parcel-bundler pegjs@dev parcel-plugin-pegjs
 ```
 
 In your code:
