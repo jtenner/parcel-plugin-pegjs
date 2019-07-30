@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/jtenner/parcel-plugin-pegjs#readme",
   "dependencies": {
-    "parcel-bundler": "^1.12.3",
     "pegjs": "^0.11.0-master.0b102d2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.3"
   }
 }

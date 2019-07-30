@@ -9,7 +9,7 @@ class PEGJSAsset extends Asset {
   async parse(code) {
     return {
       source: peg.generate(code, {
-        format: 'es',
+        format: 'commonjs',
         output: 'source',
       })
     };
